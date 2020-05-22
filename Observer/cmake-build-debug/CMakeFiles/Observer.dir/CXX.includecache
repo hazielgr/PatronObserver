@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haziel/CLionProjects/Observer/headers/ConcreteObserver.h
+ConcreteSubject.h
+/home/haziel/CLionProjects/Observer/headers/ConcreteSubject.h
+
+/home/haziel/CLionProjects/Observer/headers/ConcreteSubject.h
+Subject.h
+/home/haziel/CLionProjects/Observer/headers/Subject.h
+
+/home/haziel/CLionProjects/Observer/headers/Observer.h
+iostream
+-
+
+/home/haziel/CLionProjects/Observer/headers/Subject.h
+list
+-
+iostream
+-
+Observer.h
+/home/haziel/CLionProjects/Observer/headers/Observer.h
+
+/home/haziel/CLionProjects/Observer/sources/ConcreteObserver.cpp
+../headers/ConcreteObserver.h
+/home/haziel/CLionProjects/Observer/headers/ConcreteObserver.h
+
+/home/haziel/CLionProjects/Observer/sources/ConcreteSubject.cpp
+../headers/ConcreteSubject.h
+/home/haziel/CLionProjects/Observer/headers/ConcreteSubject.h
+
+/home/haziel/CLionProjects/Observer/sources/main.cpp
+iostream
+-
+list
+-
+../headers/ConcreteSubject.h
+/home/haziel/CLionProjects/Observer/headers/ConcreteSubject.h
+../headers/ConcreteObserver.h
+/home/haziel/CLionProjects/Observer/headers/ConcreteObserver.h
+
